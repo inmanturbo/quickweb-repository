@@ -14,6 +14,14 @@
             "Quickweb\\Repositories\\": "quickweb-repository/src/"
         }
     },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quickweb\\Repositories\\RepositoriesServiceProvider"
+            ]
+        }
+    },
 
     "require": {}
 }
