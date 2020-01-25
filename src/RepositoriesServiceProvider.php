@@ -6,7 +6,6 @@ use Illuminate\Support\Str;
 use Quickweb\Repositories\Repositories\Repository;
 use Quickweb\Repositories\Repositories\TableRepositoryInterface;
 use Quickweb\Repositories\Repositories\FieldRepositoryInterface;
-use Illuminate\Database\ConnectionResolverInterface as Base;
 
 use Illuminate\Support\ServiceProvider;
 
