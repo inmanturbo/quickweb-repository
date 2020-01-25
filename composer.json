@@ -11,9 +11,16 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Quickweb\\Repositories\\": "quickweb-repository/src"
+            "Quickweb\\Repositories\\": "src"
         }
     },
+    
+     "autoload-dev": {
+        "psr-4": {
+            "Quickweb\\Tests\\": "tests/"
+        }
+    },
+    
     "extra": {
         "laravel": {
             "providers": [
@@ -21,5 +28,6 @@
             ]
         }
     },
+
     "require": {}
 }

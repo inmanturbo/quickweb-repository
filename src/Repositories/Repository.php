@@ -17,6 +17,7 @@ class Repository implements TableRepositoryInterface, FieldRepositoryInterface
     }
 
     /**
+     * @param array $request
      * @param $table
      * @param null $connection
      * @return array
