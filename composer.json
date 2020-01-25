@@ -1,0 +1,25 @@
+{
+    "name": "inmanturbo/quickweb-repository",
+    "description": "a quick repo that implements a couple database helper interfaces",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inmanturbo",
+            "email": "inman.turbo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Quickweb\\Repositories\\": "quickweb-repository/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quickweb\\Repositories\\RepositoriesServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
