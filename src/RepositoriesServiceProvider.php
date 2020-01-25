@@ -51,13 +51,6 @@ class RepositoriesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(
-            'brotzka-dotenveditor',
-            function () {
-                $base = new Base;
-                return new Repository($base);
-            }
-        );
 
         $this->mergeConfigFrom(__DIR__ . '/../config/quickwebrepository.php', 'quickwebrepository');
     }
