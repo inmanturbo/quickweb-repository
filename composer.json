@@ -13,7 +13,7 @@
         "psr-4": {
             "Quickweb\\Repositories\\": "quickweb-repository/src/"
         }
-    }
+    },
 
     "require": {}
 }
