@@ -30,7 +30,7 @@
     },
 
     "require": {
-        "illuminate/support": "^6.*||7.*",
-        "illuminate/database": "^6.*||7.*"
+        "illuminate/support": "6.*||7.*",
+        "illuminate/database": "6.*||7.*"
     }
 }
